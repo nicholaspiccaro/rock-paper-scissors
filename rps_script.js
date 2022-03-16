@@ -61,4 +61,12 @@ function game(){
 
 }
 
-game();
+document.getElementById("rock").addEventListener("click", function(){
+    console.log("Rock");
+});
+document.getElementById("paper").addEventListener("click", function(){
+    console.log("Paper");
+});
+document.getElementById("scissors").addEventListener("click", function(){
+    console.log("Scissors");
+});
