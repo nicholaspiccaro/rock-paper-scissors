@@ -5,12 +5,31 @@
 </head>
 
 <body>
-    <div class="buttons">
-        <button id="rock"> Rock </button>
-        <button id="paper"> Paper </button>
-        <button id="scissors"> Scissors </button>
-    </div>
+    <header class="header">
+        <h1 class="title">ROCK PAPER SCISSORS</h1>
+    </header>
 
+    <main class="main">
+        <div class="scoreboard">
+          <h3 class="score-message" id="scoreMessage">
+            First to score 5 points wins the game
+          </h3>
+          <div class="scores-container">
+            <div class="score-box">
+              <p class="score" id="playerScore">Player: 0</p>
+            </div>
+            <div class="score-box">
+              <p class="score" id="computerScore">Computer: 0</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="buttons">
+            <button id="rock"> Rock </button>
+            <button id="paper"> Paper </button>
+            <button id="scissors"> Scissors </button>
+        </div>
+    </main>
 
     <script src="rps_script.js"></script>
 </body>
