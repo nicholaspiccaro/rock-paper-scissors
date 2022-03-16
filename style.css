@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.score-message{
+    display: flex;
+    justify-content: center;
+}
+
+.scores-container{
+    display: flex;
+    justify-content:center;
+}
+
+.score-box{
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#rock{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#paper{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+#scissors{
+    margin-left: 16px;
+    margin-right: 16px;
+}
