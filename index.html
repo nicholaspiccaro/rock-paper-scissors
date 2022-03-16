@@ -6,11 +6,16 @@
 </head>
 
 <body>
+    <script src="confetti.js"></script>
+    <script>
+        
+    </script>
     <header class="header">
         <h1 class="title">ROCK PAPER SCISSORS</h1>
     </header>
 
     <main class="main">
+
         <div class="scoreboard">
           <h3 class="score-message" id="scoreMessage">
             First to score 5 points wins the game
@@ -31,6 +36,18 @@
             <button id="scissors"> Scissors </button>
         </div>
     </main>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p class="results" id="results">Results</p>
+            <button id="replay"> Play Again </button>
+        </div>
+    
+    </div>
 
     <script src="rps_script.js"></script>
 </body>
