@@ -34,15 +34,36 @@
 #rock{
     margin-left: 16px;
     margin-right: 16px;
+    background-image: url(images/rock.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    background-position: 50% 50%;
+    border: none;
 }
 
 #paper{
     margin-left: 16px;
     margin-right: 16px;
+    background-image: url(images/paper.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    background-position: 50% 50%;
+    border: none;
+    
 }
 #scissors{
     margin-left: 16px;
     margin-right: 16px;
+    background-image: url(images/scissors.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    background-position: 50% 50%;
+    border: none;
 }
 
 /* The Modal (background) */
